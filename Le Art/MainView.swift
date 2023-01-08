@@ -35,7 +35,7 @@ struct MainView: View {
     func getTabView(type: TabType) -> some View {
         switch type {
         case .home:
-            SwiftOneView().preferredColorScheme(.dark)
+            VideoList().preferredColorScheme(.dark)
         case .myRec:
             ListView().preferredColorScheme(.dark)
         }
